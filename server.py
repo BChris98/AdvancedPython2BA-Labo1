@@ -8,6 +8,7 @@ import cherrypy
 class WebApp:
     @cherrypy.expose
     def index(self):
-        return 'Hello World!'
+        '''Main page of the website'''
+        return "".encode("utf-8")
 
 cherrypy.quickstart(WebApp(), '', 'server.conf')
