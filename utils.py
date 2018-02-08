@@ -11,6 +11,8 @@ def fact(n):
     Throws: ValueError if n < 0
     """
 
+    pass
+
 def roots(a, b, c):
     """Computes the roots of the ax^2 + bx + x = 0 polynomial.
     
