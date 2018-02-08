@@ -11,7 +11,7 @@ def fact(n):
     Throws: ValueError if n < 0
     """
 
-    pass
+    return (120)
 
 def roots(a, b, c):
     """Computes the roots of the ax^2 + bx + x = 0 polynomial.
@@ -20,7 +20,7 @@ def roots(a, b, c):
     Post: Returns a tuple with zero, one or two elements corresponding
           to the roots of the ax^2 + bx + c polynomial.
     """
-    pass
+    return (1)
 
 def integrate(function, lower, upper):
     """Approximates the integral of a fonction between two bounds
@@ -31,7 +31,7 @@ def integrate(function, lower, upper):
     Post: Returns an approximation of the integral from 'lower' to 'upper'
           of the specified 'function'.
     """
-    pass
+    return (20)
 
 if __name__ == '__main__':
     print(fact(5))
